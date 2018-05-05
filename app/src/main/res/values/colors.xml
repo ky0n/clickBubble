@@ -4,5 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!-- menu activity -->
     <color name="buttonPanel">#1866e2</color>
+    <color name="menuBackground">#2add5d</color>
+
+    <!-- game activity -->
+    <color name="status_bar_background">#bfffba</color>
 </resources>
