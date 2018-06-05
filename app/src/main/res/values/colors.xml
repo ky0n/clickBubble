@@ -6,7 +6,7 @@
 
     <!-- menu activity -->
     <color name="buttonPanel">#1866e2</color>
-    <color name="menuBackground">#2add5d</color>
+    <color name="menuBackground">#fff</color>
 
     <!-- game activity -->
     <color name="status_bar_background">#bfffba</color>
