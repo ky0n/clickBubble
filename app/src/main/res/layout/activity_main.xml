@@ -25,10 +25,10 @@
             android:text="@string/start" />
 
         <Button
-            android:id="@+id/sinnlosButton"
+            android:id="@+id/highscore"
             android:minHeight="100dp"
             android:minWidth="300dp"
-            android:text="@string/button"
+            android:text="@string/highscore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"/>

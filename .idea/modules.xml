@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/andys_push_me_game.iml" filepath="$PROJECT_DIR$/andys_push_me_game.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clickbubble.iml" filepath="$PROJECT_DIR$/clickbubble.iml" />
     </modules>
   </component>
 </project>

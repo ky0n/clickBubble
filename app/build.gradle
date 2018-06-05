@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.andys_push_me_game"
+        applicationId "com.clickbubble"
         minSdkVersion 20
         targetSdkVersion 27
         versionCode 1
