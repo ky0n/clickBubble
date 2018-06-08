@@ -1,5 +1,6 @@
 package com.clickbubble
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -11,8 +12,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         start_game.setOnClickListener( {
             Toast.makeText(this, "starting game ...", Toast.LENGTH_LONG ).show()
+            val intent = Intent(this, InGame::class.java)
+            startActivity(intent)
         })
 
         highscore.setOnClickListener( {
