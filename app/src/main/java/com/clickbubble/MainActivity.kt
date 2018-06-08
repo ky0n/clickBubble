@@ -19,8 +19,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         })
 
-        highscore.setOnClickListener( {
-            Toast.makeText( this, "highscore XD", Toast.LENGTH_LONG ).show()
+        highscore.setOnClickListener({
+            Toast.makeText( this, "highscore XD ", Toast.LENGTH_LONG ).show()
+            val intent = Intent( this, HighscoreActivity::class.java)
+            startActivity(intent)
         })
     }
 }

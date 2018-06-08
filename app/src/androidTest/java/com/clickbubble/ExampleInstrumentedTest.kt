@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.andys_push_me_game", appContext.packageName)
+        assertEquals("com.clickbubble", appContext.packageName)
     }
 }

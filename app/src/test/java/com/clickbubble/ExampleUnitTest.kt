@@ -1,4 +1,4 @@
-package com.andys_push_me_game
+package com.clickbubble
 
 import org.junit.Test
 
