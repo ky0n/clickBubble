@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import com.clickbubble.model.Highscore
-import java.util.*
+import java.util.Locale
 
 /**
  * @author Hendrik

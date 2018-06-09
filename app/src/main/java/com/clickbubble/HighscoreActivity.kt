@@ -7,6 +7,10 @@ import android.support.v7.widget.RecyclerView
 import com.clickbubble.model.Highscore
 import kotlinx.android.synthetic.main.activity_highscore.*
 
+/**
+ *
+ * @author Hendrik
+ */
 class HighscoreActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
@@ -37,7 +41,7 @@ class HighscoreActivity : AppCompatActivity() {
             layoutManager = viewManager
 
             //specify an ViewAdapter ( see also next example
-            //adapter = viewAdapter
+            adapter = viewAdapter
         }
 
     }
