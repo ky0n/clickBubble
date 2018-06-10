@@ -17,7 +17,7 @@ class Adapter(private val highscores: ArrayList<Highscore>): RecyclerView.Adapte
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         // create a new view
         val textView = LayoutInflater.from(parent.context)
-                .inflate(R.layout.view_highscore, parent, false) as TextView
+                .inflate(R.layout.highscore, parent, false) as TextView
         return ViewHolder(textView)
     }
 

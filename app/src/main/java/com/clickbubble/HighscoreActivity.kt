@@ -43,8 +43,5 @@ class HighscoreActivity : AppCompatActivity() {
             //specify an ViewAdapter ( see also next example
             adapter = viewAdapter
         }
-
     }
-
-
 }
