@@ -4,4 +4,6 @@
     <string name="button">button</string>
     <string name="points">Points :</string>
     <string name="highscore">Highscore</string>
+    <string name="global">global</string>
+    <string name="local">local</string>
 </resources>
