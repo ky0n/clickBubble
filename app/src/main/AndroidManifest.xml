@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".InGame"/>
         <activity android:name=".HighscoreActivity"/>
+        <activity android:name=".ButtonIn"/>
+
     </application>
 
 </manifest>

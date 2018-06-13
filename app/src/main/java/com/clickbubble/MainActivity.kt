@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         start_game.setOnClickListener( {
             Toast.makeText(this, "starting game ...", Toast.LENGTH_LONG ).show()
-            val intent = Intent(this, InGame::class.java)
+            val intent = Intent(this, ButtonIn::class.java)
             startActivity(intent)
         })
 
